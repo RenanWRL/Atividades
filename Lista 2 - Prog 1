@@ -1,0 +1,8 @@
+
+1)Verificar se um numero é par ou impar:
+
+
+# variavel a recebe entrada do tipo inteiro do teclado e armazena
+a = int(input("Digite o respectivo numero: "))
+#escreva (par) se o valor dividido por dois for igual a zero, se não encreva impar
+print(f"O numero  {a} é par")if(a%2==0)else print(f"O numero  {a} é impar")
