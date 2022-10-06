@@ -1,0 +1,31 @@
+#1)Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal:
+
+#sexo recebe entrada de sexo
+
+sexo = input("Digite seu sexo [M/F]: ")
+
+#variavel altura recebe variavel do tipo float
+
+alt = float(input("Digite sua altura: "))
+
+#se o sexo for igual a m ou M calcule de acordo
+
+if(sexo=="m"or"M"):
+
+#varivel media recebe
+
+    media=(72.7*alt)-58
+    
+#imprima na tela
+
+    print("O peso ideial é: ",media)
+    
+#se não faça
+
+else:
+
+    media=(62.1*alt)-44.7
+    
+#imprima na tela
+
+    print("O peso ideial é: ",media)
