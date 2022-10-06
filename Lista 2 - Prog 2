@@ -1,0 +1,6 @@
+#Faça um Programa que peça um número e informe se o número é inteiro ou decimal. 
+#Variavel do tipo float recebe a entrada
+
+a = float(input("Digite o respectivo numero: "))
+#Imprima inteiro se o quociente inteiro da divisão for igual ao proprio numero, se não é decimal
+print(f"O numero  {a} é inteiro")if(a//1==a)else print(f"O numero  {a} é decimal")
